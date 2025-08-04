@@ -1,12 +1,47 @@
-# React + Vite
+# 📺 Baweja Media Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional and responsive web application built using **React**, **Redux**, **React Router DOM**, and **Axios**.  
+In this assignment, we implemented a **Todo List** with search functionality, and also added a feature to **search GitHub profiles by username**.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ Built with React  
+- 🔄 State Management using Redux  
+- 🌐 Routing handled by React Router DOM  
+- 📡 API calls made using Axios  
+- 📱 Fully Responsive UI  
+- 🎨 Clean and modern design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Live Demo
+
+🌍 **Hosted Link**: [https://baweja-media-task.vercel.app/](https://baweja-media-task.vercel.app/)
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** React, Redux, React Router DOM, Axios  
+- **Styling:** CSS / SCSS  
+- **Package Manager:** npm
+
+
+---
+
+## 🔧 Setup Instructions
+
+To run this project locally:
+
+```bash
+git clone https://github.com/BunniSingh/Baweja-media-task.git
+cd Baweja-media-task
+npm install
+npm run dev
+
+```
+## 📬 Contact
+
+- 📧 **Email**: [bantikumarsingh91@gmail.com](mailto:bantikumarsingh91@gmail.com)  
+- 💼 **LinkedIn**: [linkedin.com/in/banti-kr-singh](https://www.linkedin.com/in/banti-kr-singh)  
+- 💻 **GitHub**: [github.com/BunniSingh](https://github.com/BunniSingh)
+
