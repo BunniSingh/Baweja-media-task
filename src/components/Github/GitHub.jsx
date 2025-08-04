@@ -3,7 +3,14 @@ import './GitHub.css';
 
 const GitHub = () => {
   return (
-    <div>GitHub</div>
+    <div className="todo-container">
+      <h2>Todo List</h2>
+      <BackButton />
+      <div className="todos">
+        <InputBox />
+        <ListOfTodos items={items} />
+      </div>
+    </div>
   )
 }
 
