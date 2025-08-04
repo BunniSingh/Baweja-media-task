@@ -1,0 +1,140 @@
+.github-container {
+    opacity: 0;
+    transform: translateY(10px) scale(0.90);
+    animation: fadeIn 0.8s ease-out forwards;
+    animation-delay: 0.4s;
+
+    h2 {
+        text-align: center;
+        font-size: 2rem;
+        color: #333;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 1px;
+        position: relative;
+    }
+
+    h2::after {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 3px;
+        background-color: #007bff;
+        margin: 10px auto 0;
+        border-radius: 2px;
+    }
+}
+
+.github {
+    max-width: 80%;
+    width: 100%;
+    min-height: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+
+    .github-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin: 30px auto;
+        max-width: 500px;
+        padding: 10px;
+    }
+
+    .github-input {
+        flex: 1;
+        padding: 10px 15px;
+        font-size: 16px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        transition: border-color 0.3s ease;
+    }
+
+    .github-input:focus {
+        border-color: #007bff;
+        outline: none;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #24292e;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #0366d6;
+    }
+}
+
+
+.github-card {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.github-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.github-card h3 {
+    font-size: 1.3rem;
+    margin: 0.5rem 0;
+}
+
+.github-card p {
+    font-size: 0.95rem;
+    margin: 0.3rem 0;
+    color: #333;
+}
+
+.profile-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.4rem 0.8rem;
+    background-color: #24292e;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.profile-link:hover {
+    background-color: #0366d6;
+}
+
+/* Optional fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

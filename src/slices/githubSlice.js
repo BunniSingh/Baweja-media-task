@@ -5,7 +5,6 @@ const githubSlice = createSlice({
     name: 'github',
     initialState: {
         user: null,
-        repos: [],
     },
     reducers: {
         setUser: (state, action) => {
